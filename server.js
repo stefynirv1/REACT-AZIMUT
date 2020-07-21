@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-    origin:"http://localhost:8081"
+    origin:"https://frontend.d8x68jwk9dt9j.amplifyapp.com"
 };
 
 app.use(cors(corsOptions));
